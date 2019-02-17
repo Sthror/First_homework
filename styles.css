@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 16px;
+    }
+    a {
+text-decoration: none;
+color: #a89574;
+}
+.content-box {
+    width: 1170px;
+    margin: 0 auto;
+}
+.button {
+    width: 150px;
+    display: inline-block;
+    border: 2px solid  #a89574;
+    border-radius: 4px;
+    padding: 10px 0;
+    text-align: center;
+}
+p {
+    line-height: 1.5;
+    color: #9e9e9e;
+    margin: 1.5em 0;
+}
+/*start header site*/
+.conteiner {
+    display: flex;
+    color: #a7a7a7;       
+}
+header > div {
+    justify-content: flex-end;
+    vertical-align: middle;
+}
+.gorizont-menu > ul > li {
+    list-style: none;
+    display: inline;
+						
+}
+.gorizont-menu a {
+    color: #a7a7a7;
+}
+.social-links {
+    display: inline-block;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid  #a7a7a7;
+    border-radius: 50%;
+}
+.gorizont-menu-social {
+    border-left: 1px solid #a7a7a7;
+    padding-left: 20px;
+}
+
+/*end header site*/
+/*start header slider*/
+.header-slider {
+    background: #2a2a2a;
+}
+.photo  {
+    width: 100%;
+}
+.header-slider-text {
+    flex: 2;
+    line-height: 1.5;
+}
+.slider-subtext {
+    color: #bdbdbd;
+}
+.header-slider-img {
+    flex: 1;
+}
+/*end header slider*/
+/*start main*/
+h2 {
+    color: #767676;
+    padding-top: 50px;
+    font-size: 1.5em;    
+}
+.button-alt {
+    color: #a57780;
+    border: 2px solid #a57780;
+}
+.background_main {
+    background: #f4f4f4;
+    padding-bottom: 50px;
+}
+.main-icon,
+.main-icon-last {
+    width: 90px;
+    height: 90px;
+    border: 1px solid  #a89574;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.icon-box div {
+    width: 20%;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.main-icon::after {
+    content: ">";
+    position: relative;
+    top: 40%;
+    left: 150%;
+    color: #e1ddd4;
+}
+.art-gallery {
+    width: 100%;
+    height: 210px;
+    border: none;
+}
+.photo-gallery div {
+    text-align: center;
+    margin: 50px 0;
+    justify-content: space-between;  
+}
+.photo-gallery figure {
+    border: 1px solid #dedede;
+    width: 23%;
+    padding-bottom: 30px;
+}
+.main-blog > div {
+    flex: 1;
+    margin-right: 50px;         
+}
+.main-blog p {
+    padding: 0;
+    margin: 1.1em 0 0;
+}
+.main-blog a {
+    font-size: 0.8em;
+}
+.data-coments {
+width: 40px;
+height: 40px;
+padding: 10px;
+margin: 20px 20px 0 0; 
+border: 2px solid  #a89574;
+border-radius: 50%;
+color: #a89574;
+text-align: center;
+box-sizing: content-box;
+}
+.main-blog ul{
+    margin-top: 35px;
+}
+.main-blog ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.main-blog ul li::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 2px;
+    border: 1px solid  #a89574;
+    border-radius: 50%;
+    position: relative;
+    left: -15px;
+    top: 12px;
+}
+.comments {
+    text-align: center;
+}
+.second-coment {
+    margin-top: 50px;
+}
+.special-label {
+    font-size: 100px;
+}
+.special-comment {
+    margin-top: -200px;
+}
+/*end main*/
+/*start footer*/
+footer {
+    background: #393939;
+    color: #bdbdbd;    
+}
+.footer-columns {
+    flex: 1;
+    padding-right: 40px;
+    padding-bottom: 90px;    
+}
+footer li,
+footer p,
+footer a{
+    font-size: 0.9em;
+}
+footer h2 {
+    color: white;
+}
+.footer-columns ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+footer a {
+    color: #bdbdbd;
+}
+.form-name {
+    margin-bottom: 1.1em;
+}
+.footer-columns .text {
+    background: #2e2e2e;
+    width: 100%;
+    margin: 0 0 15px;
+    border: none;
+    min-height: 40px;
+    color: white;
+}
+footer textarea{
+    resize: none;
+    height: 35%;
+}
+form .button {
+    background: #393939;
+    color: #bdbdbd;
+    border-color: #bdbdbd;
+    cursor: pointer;
+}
+.copyrights {
+    background: #333333;
+    padding: 25px 0;
+}
+/*#393939цвет фона №333333 цвет копирайта №2e2e2e цвет форм заполнения*/
+/*end footer*/
