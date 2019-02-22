@@ -67,6 +67,18 @@
       "search": [
         "phone"
       ]
+    },
+    {
+      "uid": "c3e5dafba1739ef33cc574c7484febf7",
+      "css": "quote",
+      "code": 59399,
+      "src": "entypo"
+    },
+    {
+      "uid": "749e7d90a9182938180f1d2d8c33584e",
+      "css": "right-open-1",
+      "code": 59402,
+      "src": "entypo"
     }
   ]
 }
