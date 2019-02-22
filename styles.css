@@ -128,6 +128,24 @@ header.container {
 }
 /*end header site*/
 /*start header slider*/
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+@keyframes sliderOn {
+    1%, 25% {left: 100%; opacity: 0;}
+    30%, 70% {left: 0; opacity: 1;}
+    75%, 100% {left: 100%; opacity: 0;}
+}
+.hidden-slide {
+    width: 1220px;    
+    height: 400px;
+    opacity: 0;
+    position: absolute;
+    background-image: url(1_52553a3c4777952553a3c477b6.png);   
+    animation: sliderOn 30s ease-in-out infinite alternate;
+}
+
 .header-slider {
     background: #2a2a2a;
     padding: 35px 0 30px;
